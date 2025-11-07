@@ -206,7 +206,7 @@ footer{
 }
 @media screen and (max-width:1300px) {
     nav{
-        max-width: 90vw;
+        max-width: 80vw;
     }
     .hero >:nth-child(1){
     
