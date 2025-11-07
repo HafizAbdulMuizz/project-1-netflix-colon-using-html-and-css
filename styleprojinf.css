@@ -106,10 +106,8 @@ nav button{
 }
    .main input{
     
-    padding: 07px 101px 8px 14px;
-    font-weight: 900;
+    padding: 7px 101px 8px 14px;
     font-size: 12px;
-    font-size: 20px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px rgba(246, 238, 238, 0.5);
@@ -252,6 +250,10 @@ footer{
     padding: 75px 0;
     max-width: 90vw;
     
+}
+    .footer a {
+    font-size: 14px;
+    color: white;
 }
 .footer-items{
    display: flex;
