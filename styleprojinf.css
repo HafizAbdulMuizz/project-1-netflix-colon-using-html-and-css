@@ -206,7 +206,7 @@ footer{
 }
 @media screen and (max-width:1300px) {
     nav{
-        max-width: 80vw;
+        max-width: 90vw;
     }
     .hero >:nth-child(1){
     
@@ -221,12 +221,14 @@ footer{
 
 }
 .heros-button{
-    display: flex;
-    flex-direction: column;
+   display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
    
 }
 .classfirst{
-    display: flex;
     flex-wrap: wrap;
     
 }
@@ -237,14 +239,14 @@ footer{
     
 }
 .secimage img{
-    width: 325px;
+    width: 305px;
 }
 .secimage video{
-    width: 325px;
+    width: 305px;
 }
 .faq h2{
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
 }
 footer{
     padding: 75px 0;
@@ -252,7 +254,9 @@ footer{
     
 }
 .footer-items{
-    align-items: center;
+   display: flex;
+    flex-direction: column;
+    gap: 23px;
 
 }
 }
